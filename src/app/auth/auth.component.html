@@ -13,10 +13,11 @@
           name="pin"
           required
           minlength="4"
-          placeholder="Enter your PIN">
+          placeholder="Enter your PIN"
+          mask="****">
         </div>
         <div>
-          <input type="button" class="btn btn-secondary btn-lg" value="1"> |
+          <input type="button" (click)="onSubmit()" class="btn btn-secondary btn-lg" value="1"> |
           <input type="button" class="btn btn-secondary btn-lg" value="2"> |
           <input type="button" class="btn btn-secondary btn-lg" value="3"> | <input type="button" class="btn btn-danger btn-lg" value="Cancel">
         </div>
