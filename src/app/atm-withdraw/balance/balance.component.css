@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color:lightblue;
+    background-clip: padding-box;
+    height: 500px;
+    border: 30px solid grey;
+    padding: 5%;
+    margin: 1%;
+  }
+  
+  .col-xs-12 {
+    font-style: inherit;
+    font-size: 25px;
+  }
