@@ -12,15 +12,16 @@
             <form>
               <div class="form-group">
                 <div style="text-align:left">
-                <input type="button" class="btn btn-sceondary btn-lg" value="Cash Withdrawal">
+                <input routerLinkActive="active" [routerLink]="['/cash-withdrawal']" type="button" class="btn btn-sceondary btn-lg" value="Cash Withdrawal">
                 <br>
                 <br>
                 <br>
-                <input type="button" class="btn btn-secondary btn-lg" value="Cancel">
+                <input routerLinkActive="active" [routerLink]="['/auth']" type="button" class="btn btn-secondary btn-lg" value="Cancel">
                 </div>
               </div>
             </form>
           </div>
+          <router-outlet></router-outlet>
       </div>
     </div>
 </div>

@@ -12,11 +12,11 @@
             <form>
               <div class="form-group">
                 <div style="text-align:left">
-                <input type="button" class="btn btn-secondary btn-lg" value="Balance">
+                <input routerLinkActive="active" [routerLink]="['/balance']" type="button" class="btn btn-secondary btn-lg" value="Balance">
                 <br>
                 <br>
                 <br>
-                <input type="button" class="btn btn-sceondary btn-lg" value="Cash Withdrawal">
+                <input routerLinkActive="active" [routerLink]="['/cash-withdrawal']" type="button" class="btn btn-sceondary btn-lg" value="Cash Withdrawal">
                 <br>
                 <br>
                 <br>
@@ -28,3 +28,4 @@
       </div>
     </div>
 </div>
+
