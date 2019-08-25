@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Balance } from 'src/app/balance';
 
 @Component({
   selector: 'app-balance',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./balance.component.css']
 })
 export class BalanceComponent implements OnInit {
+
+  pin: number;
+  currentBalance: Balance;
 
   constructor() { }
 
