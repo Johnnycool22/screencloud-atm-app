@@ -12,9 +12,9 @@ export class AtmWithdrawComponent implements OnInit {
 
   constructor(private router: Router, private http: HttpClient, private authService: AuthService) { }
 
-  showBalance() {
-    this.authService.getBalance().subscribe();
-  }
+  // showBalance() {
+  // this.authService.getBalance().subscribe();
+  // }
 
   ngOnInit() {
   }

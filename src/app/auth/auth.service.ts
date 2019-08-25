@@ -13,7 +13,6 @@ export class AuthService {
         pin
       });
   }
-  getBalance() {
-    return this.http.get('https://frontend-challenge.screencloud-michael.now.sh/api/pin/');
+  // getBalance() {
+  // return this.http.get('https://frontend-challenge.screencloud-michael.now.sh/api/pin/');
   }
-}
