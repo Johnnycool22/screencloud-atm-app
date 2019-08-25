@@ -1,4 +1,4 @@
-export class Balance {
+export interface Balance {
   pin: string;
   currentBalance: number;
 }

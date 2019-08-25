@@ -1,5 +1,6 @@
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { Balance } from 'src/app/balance';
 
 @Component({
   selector: 'app-balance',
@@ -8,12 +9,8 @@ import { Balance } from 'src/app/balance';
 })
 export class BalanceComponent implements OnInit {
 
-  pin: number;
-  currentBalance: Balance;
-
-  constructor() { }
+  constructor(private router: Router, private http: HttpClient) { }
 
   ngOnInit() {
   }
-
-}
+  }

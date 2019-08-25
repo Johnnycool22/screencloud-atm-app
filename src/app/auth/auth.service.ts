@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable({providedIn: 'root'})
 export class AuthService {
+
   constructor(private http: HttpClient) {}
 
   signin(pin: string) {
@@ -10,7 +11,9 @@ export class AuthService {
       'https://frontend-challenge.screencloud-michael.now.sh/api/pin/',
       {
         pin
-      }
-    );
+      });
+  }
+  getBalance() {
+    return this.http.get('https://frontend-challenge.screencloud-michael.now.sh/api/pin/');
   }
 }
