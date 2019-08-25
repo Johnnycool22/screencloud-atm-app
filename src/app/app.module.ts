@@ -9,6 +9,8 @@ import { AuthComponent } from './auth/auth.component';
 import { HomeComponent } from './home/home.component';
 import { AtmWithdrawComponent } from './atm-withdraw/atm-withdraw.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BalanceComponent } from './atm-withdraw/balance/balance.component';
+import { CashWithdrawalComponent } from './atm-withdraw/cash-withdrawal/cash-withdrawal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     AuthComponent,
     HomeComponent,
-    AtmWithdrawComponent
+    AtmWithdrawComponent,
+    BalanceComponent,
+    CashWithdrawalComponent
   ],
   imports: [
     BrowserModule,
