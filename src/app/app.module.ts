@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BalanceComponent } from './atm-withdraw/balance/balance.component';
 import { CashWithdrawalComponent } from './atm-withdraw/cash-withdrawal/cash-withdrawal.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,7 @@ import { CashWithdrawalComponent } from './atm-withdraw/cash-withdrawal/cash-wit
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
