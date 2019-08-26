@@ -28,8 +28,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/withdrawal.js",
-              "node-modules/jquery/dist/jquery.nin.js"
+              "src/assets/js/withdrawal.js",
+              "node-modules/jquery/dist/jquery.min.js"
             ]
           },
           "configurations": {
