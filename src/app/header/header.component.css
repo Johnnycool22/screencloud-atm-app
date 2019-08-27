@@ -1,3 +1,8 @@
 .container-fluid {
   background-color: gold;
 }
+
+.category {
+  font-style: inherit;
+  font-size: 16px;
+}
