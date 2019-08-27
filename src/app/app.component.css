@@ -1,3 +1,6 @@
+html {
+  width: absolute;
+}
 .row {
   background-color: gold;
   height: 540px;
