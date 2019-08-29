@@ -11,6 +11,7 @@ import { AtmWithdrawComponent } from './atm-withdraw/atm-withdraw.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BalanceComponent } from './atm-withdraw/balance/balance.component';
 import { CashWithdrawalComponent } from './atm-withdraw/cash-withdrawal/cash-withdrawal.component';
+import { HomeLandingComponent } from './home/home-landing/home-landing.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CashWithdrawalComponent } from './atm-withdraw/cash-withdrawal/cash-wit
     HomeComponent,
     AtmWithdrawComponent,
     BalanceComponent,
-    CashWithdrawalComponent
+    CashWithdrawalComponent,
+    HomeLandingComponent
   ],
   imports: [
     BrowserModule,
