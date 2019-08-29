@@ -1,6 +1,6 @@
 .row {
     background-color: gray;
     border: 1px solid black;
-    width: auto;
+    width: 1000px;
     height: 400px;
 }
