@@ -12,6 +12,9 @@ export class AuthComponent implements OnInit {
 
   constructor(private authService: AuthService, private router: Router) { }
 
+  onClickMe() {
+  }
+
   onSubmit(form: NgForm) {
     if (!form.valid) {
       return;
