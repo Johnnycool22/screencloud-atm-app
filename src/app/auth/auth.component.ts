@@ -10,9 +10,18 @@ import { Router } from '@angular/router';
 })
 export class AuthComponent implements OnInit {
 
+  public key = '';
+  searchValue = '';
+
   constructor(private authService: AuthService, private router: Router) { }
 
-  onClickMe() {
+  onClick(event) {
+    console.log(event);
+    this.key = event.type;
+  }
+
+  clearSearch() {
+    this.searchValue = null;
   }
 
   onSubmit(form: NgForm) {
@@ -28,7 +37,7 @@ export class AuthComponent implements OnInit {
       console.log(error);
     });
 
-    form.reset();
+    form.resetForm();
   }
 
   ngOnInit() {
