@@ -11,14 +11,14 @@ export class CashWithdrawalComponent implements OnInit {
   constructor() { }
 
   onSubmit(form: NgForm) {
+    console.log(form);
     if (!form.valid) {
       return;
     }
-    const withdraw = form.value.withdraw;
+
     form.resetForm();
     }
 
   ngOnInit() {
   }
-
 }

@@ -34,9 +34,9 @@
         </div>
         <br>
         <div>
-          <input type="button" class="btn btn-secondary btn-lg" value="_"> |
+          <input type="button" class="btn btn-secondary btn-lg disabled" value="_"> |
           <input type="button" (click)="onClick()" class="btn btn-secondary btn-lg" value="0"> |
-          <input type="button" class="btn btn-secondary btn-lg" value="_"> | <input type="submit" [disabled]="!authForm.valid" class="btn btn-secondary btn-lg" value="---------">
+          <input type="button" class="btn btn-secondary btn-lg disabled" value="_"> | <input type="button" [disabled]="!authForm.valid" class="btn btn-secondary btn-lg disabled" value="---------">
         </div>
         <br>
       </form>
@@ -44,7 +44,7 @@
     <div class="col-xs-12 col-md-3 col-md-offset-1">
       <br>
       <br>
-      <img src="assets/img/cardreader.jpg" style="border: 1px solid black">
+      <img class="responsive-img" src="assets/img/cardreader.jpg" style="border: 1px solid black">
     </div>
       <router-outlet></router-outlet>
   </div>

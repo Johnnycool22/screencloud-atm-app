@@ -6,17 +6,18 @@
               <form #withForm="ngForm" (ngSubmit)="onSubmit(withForm)">
                   <div class="form-group">
                     <br>
-                    <label for="pin">Amount</label>
+                    <label for="amount">Amount</label>
                     <input
                     type="number"
-                    id="number"
+                    id="amount"
                     class="form-control"
                     ngModel
                     name="amount"
                     required
-                    minlength="2"
+                    minlength="3"
                     placeholder="Enter your amount">
                   </div>
+                  <input type="submit" [disabled]="!withForm.valid" class="waves-effect waves-light btn" value="Enter">
               </form>
           </div>
           <div class="row">
