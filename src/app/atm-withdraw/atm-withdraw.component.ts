@@ -6,7 +6,7 @@ import { AuthService } from '../auth/auth.service';
 @Component({
   selector: 'app-atm-withdraw',
   templateUrl: './atm-withdraw.component.html',
-  styleUrls: ['./atm-withdraw.component.css']
+  styleUrls: ['./atm-withdraw.component.css'],
 })
 export class AtmWithdrawComponent implements OnInit {
 
