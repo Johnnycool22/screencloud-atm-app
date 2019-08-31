@@ -3,4 +3,11 @@
     border: 1px solid black;
     width: 1000px;
     height: 400px;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.form-control {
+    width: 254px;
+    margin-left: 8%;
 }
