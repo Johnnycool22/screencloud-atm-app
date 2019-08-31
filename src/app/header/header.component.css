@@ -3,6 +3,7 @@
 }
 
 .category {
-  font-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
+  margin-top: 4%;
 }
