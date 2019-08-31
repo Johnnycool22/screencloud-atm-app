@@ -6,14 +6,15 @@
           <br>
           <label for="pin">PIN Access</label>
           <input
-          type="pin"
+          type="password"
           id="pin"
           class="form-control"
           [(ngModel)] = "searchValue"
           name="pin"
           required
           minlength="4"
-          placeholder="Enter your PIN">
+          placeholder="Enter your PIN"
+          ng-click="ctrl.clearSearch()">
         </div>
         <div>
           <input type="button" (click)="key1='1'" class="btn btn-secondary btn-lg" value="1"> |
