@@ -11,3 +11,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px color black;
   }
+
+  .form-group {
+    width: 254px;
+    margin-left: 8%;
+  }

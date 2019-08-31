@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-cash-withdrawal',
@@ -8,6 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class CashWithdrawalComponent implements OnInit {
 
   constructor() { }
+
+  onSubmit(form: NgForm) {
+    if (!form.valid) {
+      return;
+    }
+    const withdraw = form.value.withdraw;
+    form.resetForm();
+    }
 
   ngOnInit() {
   }

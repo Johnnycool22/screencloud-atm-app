@@ -3,6 +3,21 @@
             <H4>Please enter your cash withdrawal amount</H4>
             <hr/>
           <div class="col-xs-12">
+              <form #withForm="ngForm" (ngSubmit)="onSubmit(withForm)">
+                  <div class="form-group">
+                    <br>
+                    <label for="pin">Amount</label>
+                    <input
+                    type="number"
+                    id="number"
+                    class="form-control"
+                    ngModel
+                    name="amount"
+                    required
+                    minlength="2"
+                    placeholder="Enter your amount">
+                  </div>
+              </form>
           </div>
           <div class="row">
               <div class="col-xs-10 col-md-8">
