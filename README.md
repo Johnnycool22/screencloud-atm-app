@@ -9,7 +9,6 @@ Run `ng serve --open` for a dev server. This will navigate to `http://localhost:
 ## The ATM App pages
 
 Screen images of the The ATM App can be viewed in screencloud-atm-app/src/assets/ATM-App-images.
-
 Image is included showing response from https://frontend-challenge.screencloud-michael.now.sh/api/pin/ currentBalance = 220 from pin authentication.
 
 ## Code scaffolding
