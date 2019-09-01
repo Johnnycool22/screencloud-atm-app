@@ -1,15 +1,16 @@
 # ScreencloudAtmApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0. using VS Code. Bootstrap 3 and Materialise frameworks where used for CSS.
 
 ## Development server
 
 Run `ng serve --open` for a dev server. This will navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## The ATM App instructions
-- Landing page loads first with animated gif and pin authentication and Spin me Home options in navbar.
-- Select 'Spin me home!' option and see what happens. This is the 'home' routing button which can be pressed any page to return user to the main landing page.
-- Select 'PIN Authenticate' option, the ATM dashboard appears with a keypad. Enter '1111' manually into the input box from keybaord only. (NOTE: keypad numerical buttons not activated, blank buttons have been disabled but the other keypad selection buttons have been activated).
+
+- Landing page loads first with animated gif, pin authentication and Spin me Home options in navbar.
+- Select 'Spin me home!' option and see what happens. This is the 'home' routing button which can be pressed from any page to return user to main landing page.
+- Select 'PIN Authenticate' option, the ATM dashboard appears with a keypad. Enter '1111' manually into the input box from keybaord only. (NOTE: the keypad numerical buttons are not activated, blank buttons have been disabled but the other keypad selection buttons have been activated).
 - Any entered PIN has been coded to remain hidden. 
 - 'Clear' button removes any entered numbers. 
 - 'Cancel' button returns to main landing page. 
@@ -22,20 +23,20 @@ Run `ng serve --open` for a dev server. This will navigate to `http://localhost:
 
 ## GitHub code version storage
 
-Angular 8 Typscript code created for The ATM App was stored in my GitHub account under username 'Johnnycool22' in a public repository called 'screencloud-atm-app'.
+Angular 8 Typscript code created for The ATM App was stored in my GitHub account under username 'Johnnycool22' in a public repository called 'screencloud-atm-app'. VS Code was configured to work with GitHub and opened new account ( orginally configured to use my Altassian BitBucket Git repository). 
 
 ## The ATM App pages
 
-Screen images of the The ATM App can be viewed in screencloud-atm-app/src/assets/ATM-App-images.
-Image is included showing JSON response from https://frontend-challenge.screencloud-michael.now.sh/api/pin/ currentBalance = 220 from pin authentication.
+Screen images of the The ATM App can be viewed in 'screencloud-atm-app/src/assets/ATM-App-images'.
+An image is included showing the JSON response from https://frontend-challenge.screencloud-michael.now.sh/api/pin/ currentBalance = 220 from pin authentication.
 
 ## Testing The ATM App
 
 Functional testing was carried out using Selenium IDE in Chrome browser. It recorded interactions with the website and App fucntions, was able to record and play back tests on Chrome.
 
 ## Issues with ATM APP
-- Unable to use with the java backend, requires a REST API like SpringBoot to integrate logic to Frontend.
-- Keypad buttons could not be activated.
+- Unable to use with the java backend, requires a REST API like SpringBoot to integrate logic with the Frontend.
+- Keypad buttons could not be activated, requires further research & coding.
 
 ## Code scaffolding
 
