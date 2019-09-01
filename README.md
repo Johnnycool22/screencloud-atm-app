@@ -30,9 +30,10 @@ Angular 8 Typscript code created for The ATM App was stored in my GitHub account
 Screen images of the The ATM App can be viewed in 'screencloud-atm-app/src/assets/ATM-App-images'.
 An image is included showing the JSON response from https://frontend-challenge.screencloud-michael.now.sh/api/pin/ currentBalance = 220 from pin authentication.
 
-## Testing The ATM App
+## Selenium Testing The ATM App
 
-Functional testing was carried out using Selenium IDE in Chrome browser. It recorded interactions with the website and App fucntions, was able to record and play back tests on Chrome.
+Functional testing was carried out using Selenium IDE in Chrome browser. It recorded interactions with the website and App fucntions, was able to record and play back tests on Chrome. 
+Test results stored in 'screencloud-atm-app/src/assets/selenium-test-images'. Majority tests passed with just one 'time-out' fail.
 
 ## Issues with ATM APP
 - Unable to use with the java backend, requires a REST API like SpringBoot to integrate logic with the Frontend.
