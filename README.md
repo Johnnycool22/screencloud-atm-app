@@ -18,7 +18,7 @@ Run `ng serve --open` for a dev server. This will navigate to `http://localhost:
 - Selecting 'Check Balance' option - current balance is display, then futher options to withdraw cash or exit.
 - Selecting 'Cash Withdraw' option - user is requested to enter amount. 'Enter' button is disabled until an amount has been enetered. The amount value is to be POST to API and processed in Java logic program (API is not present here). 
 - Once transaction is complete select 'EXIT' button or the 'Spin me home!' option in navbar to exit to main landing page.
-- End of App function.
+- End of App functionality.
 
 ## GitHub code version storage
 
