@@ -17,7 +17,8 @@ Run `ng serve --open` for a dev server. This will navigate to `http://localhost:
 - Once '1111' pin is entered is sends POST to API which returns a JSON response allwoing the user to process. Selecting 'Enter' when activated checks correct PIN then navigates to the main transaction screen.
 - Selecting 'Check Balance' option - current balance is display, then futher options to withdraw cash or exit.
 - Selecting 'Cash Withdraw' option - user is requested to enter amount. 'Enter' button is disabled until an amount has been enetered. The amount value is to be POST to API and processed in Java logic program (API is not present here). 
-- Once transaction complete select 'EXIT' buttton or 'Spin me home!' option in navbar to exit to main landing page.
+- Once transaction is complete select 'EXIT' button or the 'Spin me home!' option in navbar to exit to main landing page.
+- End of App function.
 
 ## GitHub code version storage
 
