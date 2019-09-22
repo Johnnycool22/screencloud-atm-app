@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BalanceComponent } from './atm-withdraw/balance/balance.component';
 import { CashWithdrawalComponent } from './atm-withdraw/cash-withdrawal/cash-withdrawal.component';
 import { HomeLandingComponent } from './home/home-landing/home-landing.component';
+import { DddComponent } from './ddd/ddd.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HomeLandingComponent } from './home/home-landing/home-landing.component
     AtmWithdrawComponent,
     BalanceComponent,
     CashWithdrawalComponent,
-    HomeLandingComponent
+    HomeLandingComponent,
+    DddComponent
   ],
   imports: [
     BrowserModule,
